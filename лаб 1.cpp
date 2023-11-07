@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     setlocale(0, "");
-    short int a, b, i;
+    int a, b, i;
     cout << "ведите первое число: ";
     cin >> a;
     cout << "ведите второе число: ";
