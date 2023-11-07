@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    setlocale(0, "");
+    int day;
+    cout << "Введите день недели: ";
+    cin >> day;
+    if ((day == 1) || (day == 2) || (day == 3))
+        cout << "В этот день 4 пары." << endl;
+    else if (day == 4)
+        cout << "в этот день 4 пары. И будет кружок по англиски" << endl;
+    else if (day == 5)
+        cout << "В этот день 3 пары." << endl;
+    else if (day == 6)
+        cout << "В этот день нет пар. Свободный день" << endl;
+    else if (day == 7)
+        cout << "В этот день нет пар. Но в этот день плавание" << endl;
+    system("pause");
+    return 0;
+}
